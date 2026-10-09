@@ -1,0 +1,64 @@
+%% uctest.tex 11/3/94
+%% Copyright (C) 1988-2004 Daniel Gildea, BBF, Ethan Munson.
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2003/12/01 or later.
+%
+% This work has the LPPL maintenance status "maintained".
+% 
+% The Current Maintainer of this work is Daniel Gildea.
+
+\documentclass[12pt]{tesi}
+\usepackage[italian]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage[latin1]{inputenc}
+\usepackage{subfigure}
+
+\addtolength{\topmargin}{-0.5cm}
+\addtolength{\textheight}{1.5cm}
+\addtolength{\oddsidemargin}{-0.5cm}
+\addtolength{\evensidemargin}{-0.5cm}
+
+\setlength{\parindent}{0cm}
+
+\def\dsp{\def\baselinestretch{1.5}\large\normalsize}
+\dsp
+\begin{document}
+
+\author{NOME COGNOME}
+\corso{... in Ingegneria Elettronica}
+\titolo{Titolo della tesi riga 1\\ Titolo della tesi riga 2\\ Titolo della tesi riga 3}
+\relatore{Chiar.mo \\Prof. \bf{NOME RELATORE}}
+\correlatoretxt{Correlatore:}
+\correlatore{\\Ing. \bf{NOME CORRELATORE}}
+\annoaccademico{200./200.}
+
+\maketitle
+
+\begin{abstract}
+Riassunto della tesi.
+\end{abstract}
+
+\begin{frontmatter}
+\tableofcontents
+%\listoffigures
+%\listoftables
+\end{frontmatter}
+
+
+\include{cap1}
+
+\appendix
+\include{appA}
+
+\bibliographystyle{IEEEtran}
+\thispagestyle{empty}
+\bibliography{bibliografia}
+
+\end{document}

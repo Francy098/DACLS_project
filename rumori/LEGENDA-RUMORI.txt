@@ -1,0 +1,9 @@
+--------------------------------------
+	Tipologia dei rumori
+--------------------------------------
+
+- Road crossing bell -- noise_1  ---> noise_5
+- Train door opening -- noise_6  ---> noise_10
+- Smoke alarm        -- noise_11 ---> noise_15
+- Home alarm         -- noise_16 ---> noise_20 -- compreso l'home_alarm (noise_16)
+- Hospital beeping   -- noise_21 ---> noise_26 -- compresi Beep1 e Beep2 (noise_21 e noise_22)

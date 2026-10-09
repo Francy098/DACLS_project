@@ -1,0 +1,6 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {chapter}{\numberline {1}Tesi}{1}
+\contentsline {section}{\numberline {1.1}Primo paragrafo della tesi}{1}
+\contentsline {chapter}{\numberline {A}Codice}{2}
+\contentsline {chapter}{Bibliografia}{3}

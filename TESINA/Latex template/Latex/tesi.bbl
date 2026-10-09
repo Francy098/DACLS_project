@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{BERANEK}
+L.~Beranek, \emph{Acoustics}.\hskip 1em plus 0.5em minus 0.4em\relax Acoustical
+  Society of America, 1996.
+
+\bibitem{SNOW}
+W.~Snow, ``Basic principles of stereophonic sound,'' \emph{IRE Transactions
+  Audio}, 1953.
+
+\bibitem{BRADLEY}
+J.~Bradley and G.~Soulodre, ``The influence of late arriving energy on spatial
+  impression,'' \emph{J. Acoust. Soc. Am.}, vol.~97, no.~4, 1995.
+
+\bibitem{DRESSLER}
+R.~Dressler, ``Dolby surround pro logic decoder principles of operations,''
+  1993, dolby Laboratory Licensing Corporations.
+
+\end{thebibliography}
